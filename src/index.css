@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: #ffffff50;
+  text-decoration: none;
+}
+
+.active {
+  color: #ffffff;
+}
+
+body {
+  font-family: "Montserrat", system-ui;
+}
+
+
+input{
+  padding: 12px;
+  min-width: 400px;
+}
