@@ -14,12 +14,11 @@ export const Cart = () => {
 
     }, [])
     useEffect(() => {
-        if (products.length) {
-            const total = products.reduce((red, el) => {
-                return (red + el.price)
-            }, 0);
-            setTotal(total);
-        }
+        const total = products.reduce((red, el) => {
+            return (red + el.price)
+        }, 0);
+        setTotal(total);
+
     }, [products])
 
     const removeProduct = (id) => {
